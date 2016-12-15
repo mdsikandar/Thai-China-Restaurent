@@ -1,0 +1,242 @@
+/* styling nav class "navbar-default" */
+nav.navbar-default{
+	background-color:#FFFFFF;
+	border: 0px;
+}
+
+/* styling anchor tag of class "navbar-brand" within nav class "navbar-default" */
+nav.navbar-default a.navbar-brand{
+	color:#000000;
+	font-size: 30px;
+
+}
+/* styling div element "myNavbar" */ 
+div#myNavbar{
+	background-color:#ed790e;
+	margin-top: 10px;
+} 
+/* styling anchor element within div element with id "myNavBar" */
+div#myNavbar a{
+	color:#FFFFFF;
+	font-size: 18px;
+	
+}
+/* styling anchor element within unordered div element with id "myNavBar" only when the mouse hovers*/
+div#myNavbar a:hover{
+	background-color:#ffb26b;
+}
+
+/* styling anchor tag of class "navbar-brand" within nav class "navbar-default" */
+nav.navbar-default a.navbar-brand{
+	color:#000000;
+}
+
+/* styling input element with type "text" within of div element with class "form-group" */
+div.form-group input[type="text"]{
+	width:75%;
+	margin-right: 10px;
+	
+}
+/* defining the properties of search border*/
+.search-box{
+				border: 1px solid #000;
+				border-radius: 0;	
+					}
+/* defining the properties of search button*/
+.search-button{
+				border: 1px solid #000;
+				border-radius: 0;	
+}
+/* styling input element with type attribute value "submit" within div element with class "form-group" */
+div.form-group input[type="submit"]{
+	padding:2px 10px;
+	background-color:#FFFFFF;
+	border-style:solid;
+	border-width:1px;
+	border-color:#000000;
+}
+
+
+/* defining the properties of image tag within figure */
+.banner img{
+	width:100%; 
+	margin-top: 25px;
+}
+/* defining the properties of Main */
+
+/* defining the properties of right pan */
+div.right{
+	
+	float:right;
+	margin-left:0px;
+	
+	margin-top: 10px;
+}
+
+div.aaa{
+	background-color:#FFBF55;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px
+}
+/* styling header3 element  */
+h3{
+	background-color:#FFFFFF;
+	color:#000000;
+	padding: 5px;
+	padding-left: 10px;
+		
+}
+
+/* styling header4 element  */
+h4{
+	color:#000000;
+}
+
+/* removing margin */
+.no-margin{
+	margin-left: -15px; 
+}
+
+/* defining the properties of left pan */
+
+.left{
+	clear:left;
+	margin-left: 0px;
+	
+}
+
+.leftBottom{
+	clear:left;
+	margin-left: 10px;
+	margin-right:35px;
+}
+
+/* styling header3 element with the class welcome */
+h3.welcome{
+	width:auto; 
+	margin-left: -10px;
+	color: #8e1818;
+	margin-top: 0px
+}
+
+.pdd{
+	padding-right: 140px
+}
+/* styling header3 element  */
+p.thicker {
+    font-weight: 550;
+}
+
+/* styling header 4 which is within section tag */ 
+section h4{
+	color:#669900;
+}
+
+.pad{
+	padding-top: 20px;
+}
+/* defining the properties of "footer" */
+.site-footer{
+	margin-top: 30px;
+	padding-top: 30px;
+}
+/* defining the properties of bottom footer*/
+.bottom-footer{
+	border-top: 2px solid #000;
+	margin-top: 10px;
+	padding-top: 10px;
+	
+	margin-right: 15px;
+	margin-left: 15px;
+}
+/* defining the properties of footer navigation*/
+.footer-nav{
+	text-align: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/* defining the properties of footer links*/
+.footer-nav li{
+	display: inline;
+
+}
+.footer-nav li:not(:first-child):before{
+	content: '|';
+	padding:0px 10px;
+}
+/* defining the properties of footer navigation for a tag*/
+
+.footer-nav a{
+	color:#000;
+}
+/* defining the properties of hover */
+.footer-nav a:hover{
+	color:#ffb26b;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+				
+}
+
+@media screen and (max-width: 768px) {
+				 
+			
+				div.right{
+					margin-right:0px;
+				}
+
+				.navbar-default .navbar-form{
+				border-color: transparent;
+				}
+
+				.pdd{
+				padding-right: 0;
+				}
+				
+}
+@media screen and (max-width: 640px) {
+							
+				.search-box{
+					width:93%;
+				}	
+				
+				.banner img{
+					margin-top: 0;
+				}
+}
+
+@media screen and (max-width: 480px) {
+				 
+				.bottom-footer{
+					text-align: center;
+				}
+
+				nav.navbar-default a.navbar-brand{
+					font-size: 21px;
+				}
+				
+				.footer-nav li:not(:first-child):before{
+					padding:0px 7px;
+				}
+				.footer-nav{
+					text-align: center;
+				}
+				.custum-align{
+					text-align: center;
+					padding-bottom: 16px;
+
+				}
+				.search-box{
+					width:90%;
+					}
+						
+}
+@media screen and (max-width: 360px){
+	.search-box{
+					width:80%;
+				}
+}	
